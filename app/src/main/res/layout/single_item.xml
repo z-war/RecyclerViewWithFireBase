@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTV"
+        android:text="Dummy"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:background="@color/colorAccent"
+        android:layout_margin="5dp"
+        /> <ImageView
+    android:layout_width="70dp"
+    android:layout_height="50dp"
+    android:id="@+id/imgview"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/ic_person_black_24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusTV"
+        android:layout_below="@id/nameTV"
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        />
+
+</RelativeLayout>
